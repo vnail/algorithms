@@ -9,7 +9,6 @@ package SwordOffer;
  *      p2：指向替换之后的字符串的末尾（需提前遍历一遍str，数一下一共有多少个空格）
  *  然后p1和p2一起向前跑，当p1遇到空格，则将' '变成'%20'，然后继续向前跑。
  *
- * Created by nibnait on 2016/9/20.
  */
 public class b04_替换空格 {
 

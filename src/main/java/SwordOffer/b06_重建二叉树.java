@@ -8,7 +8,6 @@ import java.util.HashMap;
 /**
  * 根据前序和中序序列（不含有重复的数字），构建一棵二叉树
  *
- * Created by nibnait on 2016/9/20.
  */
 public class b06_重建二叉树 {
 

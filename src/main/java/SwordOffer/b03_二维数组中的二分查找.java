@@ -6,7 +6,6 @@ package SwordOffer;
  *
  * 【思路】
  * 从二维数组的右上角往左下角开始比较。
- * Created by nibnait on 2016/9/20.
  */
 public class b03_二维数组中的二分查找 {
 
@@ -17,6 +16,7 @@ public class b03_二维数组中的二分查找 {
                 {4, 7, 10, 13},
                 {6, 8, 11, 15}
         };
+
         System.out.println(findInPartiallySortedMatrix(matrix, 6));
     }
 
@@ -39,5 +39,4 @@ public class b03_二维数组中的二分查找 {
         }
         return 0;
     }
-
 }

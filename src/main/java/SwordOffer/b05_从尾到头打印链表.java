@@ -5,10 +5,10 @@ import SwordOffer.Standard.ListNode;
 import java.util.Stack;
 
 /**
- * 不改变原数据结构
+ * 不改变原数据结构,从尾到头打印链表
  * --> 用 栈
  * -->改写成 递归√
- * Created by nibnait on 2016/9/20.
+ *
  */
 public class b05_从尾到头打印链表 {
 
@@ -41,7 +41,6 @@ public class b05_从尾到头打印链表 {
             System.out.print(stack.pop()+ " ");
         }
     }
-
 
     public static void main(String[] args) {
         ListNode head = new ListNode(1);
