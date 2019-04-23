@@ -2,7 +2,8 @@ package SwordOffer;
 
 
 /**
- * Created by nibnait on 2016/9/20.
+ * 5种单例模式
+ *
  */
 public class b02_单例模式 {}
 
